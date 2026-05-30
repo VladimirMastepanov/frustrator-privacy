@@ -7,57 +7,78 @@
     <style>
         body {
             font-family: monospace;
-            background-color: #000000; /* Чисто черный фон */
+            background-color: #000000;
             color: #ffffff;
             padding: 40px 20px;
             max-width: 600px;
             margin: 0 auto;
             line-height: 1.6;
         }
-        /* Автоматическая подгонка всех изображений */
         img {
             display: block;
             max-width: 100%;
             height: auto;
         }
-        /* Центрирование верхней картинки и отступ снизу */
         .center-image {
             margin: 0 auto 20px auto;
         }
         h1 { 
-            border-bottom: 2px solid #333; 
+            border-bottom: 2px solid #ffffff; /* Белая строгая линия */
             padding-bottom: 10px; 
             font-size: 20px; 
-            text-align: center; /* Центрирование главного заголовка */
+            text-align: center;
+            letter-spacing: 2px;
         }
-        h2 { font-size: 16px; margin-top: 30px; color: #888; }
-        p { font-size: 14px; }
-        /* Центрирование нижней картинки и отступ сверху */
+        h2 { 
+            font-size: 15px; 
+            margin-top: 40px; 
+            color: #ffffff; /* Чистый белый для заголовков */
+            font-weight: bold; 
+            letter-spacing: 1px;
+        }
+        p { 
+            font-size: 14px; 
+            color: #aaaaaa; /* Спокойный серый для читаемости текста */
+        }
+        .manifesto {
+            font-style: italic;
+            color: #666666; /* Темно-серый для манифеста */
+            text-align: center;
+            border-left: 2px solid #ffffff;
+            padding-left: 15px;
+            margin: 30px 0;
+        }
         .footer-image {
             margin: 40px auto 0 auto;
         }
     </style>
 </head>
 <body>
+
     <!-- Картинка в шапке по центру -->
     <img src="graphic.png" alt="Header Image" class="center-image">
 
-    <h1>PRIVACY POLICY</h1>
-    <p style="text-align: center;"><strong>Last updated: May 2026</strong></p>
+    <h1>FRUSTRATOR // PRIVACY MANIFESTO</h1>
+    <p style="text-align: center; color: #444444;">[ Protocol updated: May 2026 ]</p>
 
-    <h2>1. NO DATA COLLECTION</h2>
-    <p>The Frustrator app is a fully autonomous audio synthesizer. It does not collect, store, track, or share any personal data, device identifiers, or user information.</p>
+    <p class="manifesto">
+        "Frustrator is an isolated audio entity. It exists solely to generate sound, free from the noise of the modern internet, tracking, and data harvesting."
+    </p>
 
-    <h2>2. NO INTERNET ACCESS</h2>
-    <p>The app works entirely offline. It does not require or use an internet connection, and it does not transmit any data to third-party services.</p>
+    <h2>01. ZERO DATA HARVESTING</h2>
+    <p>The Frustrator app operates in absolute isolation. It does not collect, store, track, or leak any personal data, device identifiers, or analytics. Your machine remains yours.</p>
 
-    <h2>3. NO PERMISSIONS</h2>
-    <p>The app does not require access to your microphone, location, camera, contacts, or storage.</p>
+    <h2>02. ABSOLUTE OFFLINE MODE</h2>
+    <p>The system requires no network connection. It works entirely offline, meaning zero bytes of data are transmitted to third-party servers or external networks.</p>
 
-    <h2>4. CONTACT</h2>
-    <p>If you have any questions, contact the developer at: mastepanovmail@gmail.com</p>
+    <h2>03. NO PERMISSIONS REQUIRED</h2>
+    <p>Frustrator does not access your microphone, location, camera, contacts, or internal storage. It generates raw audio without invading your hardware privacy.</p>
+
+    <h2>04. DIRECT TERMINAL CONTACT</h2>
+    <p>For inquiries, bug reports, or direct feedback, contact the developer at: <span style="color: #ffffff;">mastepanovmail@gmail.com</span></p>
 
     <!-- Картинка после всего текста -->
     <img src="iconRaw.png" alt="Footer Image" class="footer-image">
+
 </body>
 </html>
