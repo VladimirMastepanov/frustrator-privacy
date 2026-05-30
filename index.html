@@ -7,16 +7,35 @@
     <style>
         body {
             font-family: monospace;
-            background-color: #121212;
+            background-color: #000000; /* Чисто черный фон */
             color: #ffffff;
             padding: 40px 20px;
             max-width: 600px;
             margin: 0 auto;
             line-height: 1.6;
         }
-        h1 { border-bottom: 2px solid #333; padding-bottom: 10px; font-size: 20px; }
+        /* Автоматическая подгонка всех изображений */
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        /* Центрирование верхней картинки и отступ снизу */
+        .center-image {
+            margin: 0 auto 20px auto;
+        }
+        h1 { 
+            border-bottom: 2px solid #333; 
+            padding-bottom: 10px; 
+            font-size: 20px; 
+            text-align: center; /* Центрирование главного заголовка */
+        }
         h2 { font-size: 16px; margin-top: 30px; color: #888; }
         p { font-size: 14px; }
+        /* Центрирование нижней картинки и отступ сверху */
+        .footer-image {
+            margin: 40px auto 0 auto;
+        }
     </style>
 </head>
 <body>
@@ -24,7 +43,7 @@
     <img src="graphic.png" alt="Header Image" class="center-image">
 
     <h1>PRIVACY POLICY</h1>
-    <p><strong>Last updated: May 2026</strong></p>
+    <p style="text-align: center;"><strong>Last updated: May 2026</strong></p>
 
     <h2>1. NO DATA COLLECTION</h2>
     <p>The Frustrator app is a fully autonomous audio synthesizer. It does not collect, store, track, or share any personal data, device identifiers, or user information.</p>
