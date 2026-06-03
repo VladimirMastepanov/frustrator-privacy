@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О приложении — Фрустратор</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Doto', monospace;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 40px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto 20px auto;
+        }
+        h1 { 
+            border-bottom: 2px solid #ffffff; 
+            padding-bottom: 10px; 
+            font-size: 20px; 
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        p { 
+            font-size: 14px; 
+            color: #aaaaaa; 
+            text-align: justify; 
+            margin-bottom: 20px; 
+        }
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 30px;
+        }
+        .lang-switch a {
+            color: #555555;
+            text-decoration: none;
+            font-size: 12px;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #333333;
+            transition: color 0.2s, border-color 0.2s;
+        }
+        .lang-switch a:hover {
+            color: #ffffff;
+            border-color: #ffffff;
+        }
+        .spoiler {
+            border-top: 1px solid #222222;
+            margin-top: 10px;
+            padding-top: 20px;
+        }
+        .spoiler p {
+            color: #666666;
+            font-size: 13px;
+        }
+        .spoiler-label {
+            font-size: 11px;
+            color: #444444;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            margin: 30px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #333333;
+        }
+        .kofi-button {
+            display: block;
+            text-align: center;
+            border: 2px solid #ffffff;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px;
+            margin-top: 40px;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 1px;
+            transition: background 0.2s;
+        }
+        .kofi-button:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="lang-switch">
+        <a href="about-en.html">EN</a>
+    </div>
+
+    <img src="graphic.png" alt="Frustrator Logo">
+    <h1>О ПРИЛОЖЕНИИ // ФРУСТРАТОР</h1>
+
+    <p style="margin-top: 30px;">Фрустратор — место, где можно отдохнуть от контроля и от погони за целью. Фрустрация рассматривается здесь не как выгорание и беспомощность, а как расслабление и принятие. Приложение предлагает отказаться от попыток контроля и стать наблюдателем или партнёром.</p>
+
+    <p>Ваши действия могут что-то изменить, а могут и нет. Иногда последствия приходят с задержкой — и уже непонятно, что именно их вызвало. Это не баг, это и есть суть.</p>
+
+    <p>Если вы ничего не будете делать — всё равно можете насладиться музыкой. Можно просто не делать ничего — фрустратор справится сам. Этот вариант не хуже и не лучше. Вас никто не будет оценивать или осуждать.</p>
+
+    <div class="spoiler">
+        <p class="spoiler-label">техническая сторона</p>
+        <p>Приложение представляет собой шесть аудиомодулей, каждый из которых имеет от шести до одиннадцати настраиваемых параметров. При запуске приложения каждый из параметров устанавливается в произвольном значении. Перемещая кольца дыма по экрану, вы вслепую распределяете значения параметров — где-то значение становится больше, где-то меньше. При каждом открытии приложения зоны, отвечающие за разные параметры модулей, перемешиваются и получают случайные значения. Можно просто исследовать — это тоже приятно.</p>
+    </div>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ссылка_на_видео" allowfullscreen></iframe>
+    </div>
+
+    <p style="text-align: center; margin-top: 40px;">Если хочется поддержать независимый проект — можно угостить меня кофе.</p>
+    <a href="https://ko-fi.com/ваш_ник" class="kofi-button" target="_blank">ПОДДЕРЖАТЬ НА KO-FI</a>
+
+</body>
+</html>
