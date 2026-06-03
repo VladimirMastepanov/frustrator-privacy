@@ -1,2 +1,2 @@
-ru - https://vladimirmastepanov.github.io/frustrator-privacy/about-ru.html
-en - https://vladimirmastepanov.github.io/frustrator-privacy/about-en.html
+ - ru - https://vladimirmastepanov.github.io/frustrator-privacy/about-ru.html
+ - en - https://vladimirmastepanov.github.io/frustrator-privacy/about-en.html
